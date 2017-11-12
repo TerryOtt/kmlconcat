@@ -28,7 +28,9 @@ Run the program as:
 python3 generated.kml /tmp/input_kml/*.kml
 ```
 
-Output will be stored into a single KML file, with one per polygon per placemark.
+Output will be in the `generated.kml` file. 
+
+The output KML file contains no folders, and each polygon is stored in its own placemark. 
 
 ## Legal
 
